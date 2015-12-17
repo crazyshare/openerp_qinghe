@@ -1,0 +1,14 @@
+<openerp>
+    <data> 
+      <template id="website">
+      <t t-call="website.layout">
+         <t t-set="title">website</t>      
+            <div class="oe_structure"> 
+                <t t-foreach="fruits" t-as="fruit">
+                    <p><t t-esc="fruit.id"/><t t-esc="fruit.name"></t></p>
+                </t>
+            </div>
+       </t>  
+       </template>
+    </data>
+</openerp>

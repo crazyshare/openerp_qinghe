@@ -1,0 +1,11 @@
+<openerp>
+    <data> 
+      <template id="xlist">
+            <title>qinghe</title>
+            <t t-foreach="fruits" t-as="fruit">
+                <p><t t-esc="fruit"/></p>
+            </t>   
+       </template>
+
+    </data>
+</openerp>

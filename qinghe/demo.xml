@@ -1,0 +1,23 @@
+<openerp>
+    <data>
+        <record id="apple" model="qinghe.fruits"> 
+          <field name="name">apple</field> 
+        </record>
+        <record id="abc" model="qinghe.fruits"> 
+          <field name="name">abc</field> 
+        </record>
+        <record id="bbc" model="qinghe.fruits"> 
+          <field name="name">bbc</field> 
+        </record>
+        <record id="dddc" model="qinghe.fruits"> 
+          <field name="name">dddc</field> 
+        </record>
+    </data>
+</openerp>
+
+
+
+
+
+
+

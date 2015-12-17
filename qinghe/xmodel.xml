@@ -1,0 +1,10 @@
+<openerp>
+    <data> 
+      <template id="xmodel">     
+         <title>xmodel</title>      
+           <t t-foreach="fruits" t-as="fruit">
+               <p><t t-esc="fruit.id"/><t t-esc="fruit.name"></t></p>
+           </t> 
+       </template>
+    </data>
+</openerp>
